@@ -4,7 +4,7 @@ A simple and responsive Password Generator built with React.js. This application
 
 ## 🚀 Live Demo
 
-https://your-netlify-link.netlify.app
+https://password-generate-react-mk.netlify.app/
 
 ## 📂 GitHub Repository
 
