@@ -1,16 +1,85 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Password Generator built with React.js. This application allows users to generate strong and secure passwords by customizing password length and character types.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://your-netlify-link.netlify.app
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/Muthukannan04/Generate-Password-React
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Generate random passwords
+* Customize password length
+* Include uppercase letters
+* Include lowercase letters
+* Include numbers
+* Include special symbols
+* Password strength indicator
+* Copy password to clipboard
+* Responsive design
+
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript
+* CSS3
+* HTML5
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Muthukannan04/password-generator-react.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd password-generator-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+## 📖 How to Use
+
+1. Select the password length.
+2. Choose the character types you want:
+
+   * Uppercase Letters
+   * Lowercase Letters
+   * Numbers
+   * Symbols
+3. Click the **Generate Password** button.
+4. Copy the generated password using the **Copy** button.
+
+## 📁 Project Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+```
+
+## 👨‍💻 Author
+
+Muthukannan
+
+## 📄 License
+
+This project is licensed under the MIT License.
